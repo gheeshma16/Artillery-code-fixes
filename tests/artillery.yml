@@ -1,0 +1,42 @@
+config:
+  # target : https://rahulshettyacademy.com/client/#/auth/login
+  target : "https://rahulshettyacademy.com"
+
+  
+
+  # processor: "./commands/testFlow.ts"
+  processor: "./artillery/Pages/testFlow.ts"
+
+  phases:
+    # - duration: 4
+    #   arrivalRate: 2
+ 
+    - name: Warm-up
+      duration: 1
+      arrivalRate: 1
+
+    - name: Load Test
+      duration: 1
+      arrivalRate: 1
+
+
+
+
+
+  engines:
+    playwright :  
+        launchOptions:
+          headless: false
+    #  {}
+      
+scenarios:
+  - engine : playwright
+    # testFunction : "artilleryScript"
+    # testFunction : "testCreateship"
+
+    # testFunction : "testLogin"
+    flowFunction: "testFlow"
+    # testFunction    # {}
+
+
+    

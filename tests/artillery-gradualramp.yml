@@ -1,0 +1,21 @@
+config:
+  target: "https://rahulshettyacademy.com"
+
+  processor: "./artillery/Pages/testFlow.ts"
+
+  phases:
+    - name: Warm-up
+      duration: 10
+      arrivalRate: 1
+
+    - name: Gradual Ramp
+      duration: 30
+      arrivalRate: 1
+      rampTo: 5
+
+  engines:
+    playwright:
+      launchOptions: {}
+scenarios:
+  - engine: playwright
+    flowFunction: "testFlow"

@@ -1,0 +1,23 @@
+{
+  "name": "artillery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^25.9.5",
+    "artillery": "^2.0.33",
+    "artillery-plugin-ensure": "^1.27.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "handlebars": "^4.7.9"
+  }
+}

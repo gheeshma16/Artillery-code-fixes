@@ -1,0 +1,505 @@
+{
+  "aggregate": {
+    "counters": {
+      "vusers.created_by_name.0": 2,
+      "vusers.created": 2,
+      "browser.page.codes.200": 80,
+      "browser.http_requests": 81,
+      "errors.pw_failed_assertion.toHaveText": 1,
+      "vusers.failed": 1,
+      "browser.page.codes.201": 1,
+      "vusers.completed": 1
+    },
+    "rates": {},
+    "firstCounterAt": 1791790493590,
+    "firstHistogramAt": 1791790495941,
+    "lastCounterAt": 1791790515252,
+    "lastHistogramAt": 1791790515252,
+    "firstMetricAt": 1791790493590,
+    "lastMetricAt": 1791790515252,
+    "period": 1791790510000,
+    "summaries": {
+      "browser.page.TTFB.https://rahulshettyacademy.com/client/#/auth/login": {
+        "min": 122.8,
+        "max": 127.5,
+        "count": 2,
+        "mean": 125.1,
+        "p50": 122.7,
+        "median": 122.7,
+        "p75": 122.7,
+        "p90": 122.7,
+        "p95": 122.7,
+        "p99": 122.7,
+        "p999": 122.7
+      },
+      "browser.page.FCP.https://rahulshettyacademy.com/client/#/auth/login": {
+        "min": 580,
+        "max": 580,
+        "count": 2,
+        "mean": 580,
+        "p50": 584.2,
+        "median": 584.2,
+        "p75": 584.2,
+        "p90": 584.2,
+        "p95": 584.2,
+        "p99": 584.2,
+        "p999": 584.2
+      },
+      "browser.page.LCP.https://rahulshettyacademy.com/client/#/auth/login": {
+        "min": 580,
+        "max": 580,
+        "count": 1,
+        "mean": 580,
+        "p50": 584.2,
+        "median": 584.2,
+        "p75": 584.2,
+        "p90": 584.2,
+        "p95": 584.2,
+        "p99": 584.2,
+        "p999": 584.2
+      },
+      "browser.page.INP.https://rahulshettyacademy.com/client/#/dashboard/order?prop=%5B%226960eac0c941646b7a8b3e68%22,%226960eac0c941646b7a8b3e68%22%5D": {
+        "min": 48,
+        "max": 48,
+        "count": 1,
+        "mean": 48,
+        "p50": 47.9,
+        "median": 47.9,
+        "p75": 47.9,
+        "p90": 47.9,
+        "p95": 47.9,
+        "p99": 47.9,
+        "p999": 47.9
+      },
+      "browser.page.CLS.https://rahulshettyacademy.com/client/#/dashboard/order?prop=%5B%226960eac0c941646b7a8b3e68%22,%226960eac0c941646b7a8b3e68%22%5D": {
+        "min": 0,
+        "max": 0,
+        "count": 1,
+        "mean": 0,
+        "p50": 0,
+        "median": 0,
+        "p75": 0,
+        "p90": 0,
+        "p95": 0,
+        "p99": 0,
+        "p999": 0
+      },
+      "browser.page.INP.https://rahulshettyacademy.com/client/#/dashboard/myorders": {
+        "min": 56,
+        "max": 56,
+        "count": 1,
+        "mean": 56,
+        "p50": 56.3,
+        "median": 56.3,
+        "p75": 56.3,
+        "p90": 56.3,
+        "p95": 56.3,
+        "p99": 56.3,
+        "p999": 56.3
+      },
+      "browser.page.CLS.https://rahulshettyacademy.com/client/#/dashboard/myorders": {
+        "min": 0,
+        "max": 0,
+        "count": 1,
+        "mean": 0,
+        "p50": 0,
+        "median": 0,
+        "p75": 0,
+        "p90": 0,
+        "p95": 0,
+        "p99": 0,
+        "p999": 0
+      },
+      "vusers.session_length": {
+        "min": 21662.4,
+        "max": 21662.4,
+        "count": 1,
+        "mean": 21662.4,
+        "p50": 21813.5,
+        "median": 21813.5,
+        "p75": 21813.5,
+        "p90": 21813.5,
+        "p95": 21813.5,
+        "p99": 21813.5,
+        "p999": 21813.5
+      }
+    },
+    "histograms": {
+      "browser.page.TTFB.https://rahulshettyacademy.com/client/#/auth/login": {
+        "min": 122.8,
+        "max": 127.5,
+        "count": 2,
+        "mean": 125.1,
+        "p50": 122.7,
+        "median": 122.7,
+        "p75": 122.7,
+        "p90": 122.7,
+        "p95": 122.7,
+        "p99": 122.7,
+        "p999": 122.7
+      },
+      "browser.page.FCP.https://rahulshettyacademy.com/client/#/auth/login": {
+        "min": 580,
+        "max": 580,
+        "count": 2,
+        "mean": 580,
+        "p50": 584.2,
+        "median": 584.2,
+        "p75": 584.2,
+        "p90": 584.2,
+        "p95": 584.2,
+        "p99": 584.2,
+        "p999": 584.2
+      },
+      "browser.page.LCP.https://rahulshettyacademy.com/client/#/auth/login": {
+        "min": 580,
+        "max": 580,
+        "count": 1,
+        "mean": 580,
+        "p50": 584.2,
+        "median": 584.2,
+        "p75": 584.2,
+        "p90": 584.2,
+        "p95": 584.2,
+        "p99": 584.2,
+        "p999": 584.2
+      },
+      "browser.page.INP.https://rahulshettyacademy.com/client/#/dashboard/order?prop=%5B%226960eac0c941646b7a8b3e68%22,%226960eac0c941646b7a8b3e68%22%5D": {
+        "min": 48,
+        "max": 48,
+        "count": 1,
+        "mean": 48,
+        "p50": 47.9,
+        "median": 47.9,
+        "p75": 47.9,
+        "p90": 47.9,
+        "p95": 47.9,
+        "p99": 47.9,
+        "p999": 47.9
+      },
+      "browser.page.CLS.https://rahulshettyacademy.com/client/#/dashboard/order?prop=%5B%226960eac0c941646b7a8b3e68%22,%226960eac0c941646b7a8b3e68%22%5D": {
+        "min": 0,
+        "max": 0,
+        "count": 1,
+        "mean": 0,
+        "p50": 0,
+        "median": 0,
+        "p75": 0,
+        "p90": 0,
+        "p95": 0,
+        "p99": 0,
+        "p999": 0
+      },
+      "browser.page.INP.https://rahulshettyacademy.com/client/#/dashboard/myorders": {
+        "min": 56,
+        "max": 56,
+        "count": 1,
+        "mean": 56,
+        "p50": 56.3,
+        "median": 56.3,
+        "p75": 56.3,
+        "p90": 56.3,
+        "p95": 56.3,
+        "p99": 56.3,
+        "p999": 56.3
+      },
+      "browser.page.CLS.https://rahulshettyacademy.com/client/#/dashboard/myorders": {
+        "min": 0,
+        "max": 0,
+        "count": 1,
+        "mean": 0,
+        "p50": 0,
+        "median": 0,
+        "p75": 0,
+        "p90": 0,
+        "p95": 0,
+        "p99": 0,
+        "p999": 0
+      },
+      "vusers.session_length": {
+        "min": 21662.4,
+        "max": 21662.4,
+        "count": 1,
+        "mean": 21662.4,
+        "p50": 21813.5,
+        "median": 21813.5,
+        "p75": 21813.5,
+        "p90": 21813.5,
+        "p95": 21813.5,
+        "p99": 21813.5,
+        "p999": 21813.5
+      }
+    }
+  },
+  "intermediate": [
+    {
+      "counters": {
+        "vusers.created_by_name.0": 2,
+        "vusers.created": 2,
+        "browser.page.codes.200": 57,
+        "browser.http_requests": 57
+      },
+      "rates": {},
+      "firstCounterAt": 1791790493590,
+      "firstHistogramAt": 1791790495941,
+      "lastCounterAt": 1791790499988,
+      "lastHistogramAt": 1791790496029,
+      "firstMetricAt": 1791790493590,
+      "lastMetricAt": 1791790499988,
+      "period": "1791790490000",
+      "summaries": {
+        "browser.page.TTFB.https://rahulshettyacademy.com/client/#/auth/login": {
+          "min": 122.8,
+          "max": 127.5,
+          "count": 2,
+          "mean": 125.1,
+          "p50": 122.7,
+          "median": 122.7,
+          "p75": 122.7,
+          "p90": 122.7,
+          "p95": 122.7,
+          "p99": 122.7,
+          "p999": 122.7
+        },
+        "browser.page.FCP.https://rahulshettyacademy.com/client/#/auth/login": {
+          "min": 580,
+          "max": 580,
+          "count": 2,
+          "mean": 580,
+          "p50": 584.2,
+          "median": 584.2,
+          "p75": 584.2,
+          "p90": 584.2,
+          "p95": 584.2,
+          "p99": 584.2,
+          "p999": 584.2
+        },
+        "browser.page.LCP.https://rahulshettyacademy.com/client/#/auth/login": {
+          "min": 580,
+          "max": 580,
+          "count": 1,
+          "mean": 580,
+          "p50": 584.2,
+          "median": 584.2,
+          "p75": 584.2,
+          "p90": 584.2,
+          "p95": 584.2,
+          "p99": 584.2,
+          "p999": 584.2
+        }
+      },
+      "histograms": {
+        "browser.page.TTFB.https://rahulshettyacademy.com/client/#/auth/login": {
+          "min": 122.8,
+          "max": 127.5,
+          "count": 2,
+          "mean": 125.1,
+          "p50": 122.7,
+          "median": 122.7,
+          "p75": 122.7,
+          "p90": 122.7,
+          "p95": 122.7,
+          "p99": 122.7,
+          "p999": 122.7
+        },
+        "browser.page.FCP.https://rahulshettyacademy.com/client/#/auth/login": {
+          "min": 580,
+          "max": 580,
+          "count": 2,
+          "mean": 580,
+          "p50": 584.2,
+          "median": 584.2,
+          "p75": 584.2,
+          "p90": 584.2,
+          "p95": 584.2,
+          "p99": 584.2,
+          "p999": 584.2
+        },
+        "browser.page.LCP.https://rahulshettyacademy.com/client/#/auth/login": {
+          "min": 580,
+          "max": 580,
+          "count": 1,
+          "mean": 580,
+          "p50": 584.2,
+          "median": 584.2,
+          "p75": 584.2,
+          "p90": 584.2,
+          "p95": 584.2,
+          "p99": 584.2,
+          "p999": 584.2
+        }
+      }
+    },
+    {
+      "counters": {
+        "browser.page.codes.200": 11,
+        "browser.http_requests": 11,
+        "errors.pw_failed_assertion.toHaveText": 1,
+        "vusers.failed": 1
+      },
+      "rates": {},
+      "firstCounterAt": 1791790500005,
+      "firstHistogramAt": 1791790501338,
+      "lastCounterAt": 1791790506942,
+      "lastHistogramAt": 1791790501339,
+      "firstMetricAt": 1791790500005,
+      "lastMetricAt": 1791790506942,
+      "period": "1791790500000",
+      "summaries": {
+        "browser.page.INP.https://rahulshettyacademy.com/client/#/dashboard/order?prop=%5B%226960eac0c941646b7a8b3e68%22,%226960eac0c941646b7a8b3e68%22%5D": {
+          "min": 48,
+          "max": 48,
+          "count": 1,
+          "mean": 48,
+          "p50": 47.9,
+          "median": 47.9,
+          "p75": 47.9,
+          "p90": 47.9,
+          "p95": 47.9,
+          "p99": 47.9,
+          "p999": 47.9
+        },
+        "browser.page.CLS.https://rahulshettyacademy.com/client/#/dashboard/order?prop=%5B%226960eac0c941646b7a8b3e68%22,%226960eac0c941646b7a8b3e68%22%5D": {
+          "min": 0,
+          "max": 0,
+          "count": 1,
+          "mean": 0,
+          "p50": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 0,
+          "p95": 0,
+          "p99": 0,
+          "p999": 0
+        }
+      },
+      "histograms": {
+        "browser.page.INP.https://rahulshettyacademy.com/client/#/dashboard/order?prop=%5B%226960eac0c941646b7a8b3e68%22,%226960eac0c941646b7a8b3e68%22%5D": {
+          "min": 48,
+          "max": 48,
+          "count": 1,
+          "mean": 48,
+          "p50": 47.9,
+          "median": 47.9,
+          "p75": 47.9,
+          "p90": 47.9,
+          "p95": 47.9,
+          "p99": 47.9,
+          "p999": 47.9
+        },
+        "browser.page.CLS.https://rahulshettyacademy.com/client/#/dashboard/order?prop=%5B%226960eac0c941646b7a8b3e68%22,%226960eac0c941646b7a8b3e68%22%5D": {
+          "min": 0,
+          "max": 0,
+          "count": 1,
+          "mean": 0,
+          "p50": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 0,
+          "p95": 0,
+          "p99": 0,
+          "p999": 0
+        }
+      }
+    },
+    {
+      "counters": {
+        "browser.page.codes.201": 1,
+        "browser.http_requests": 13,
+        "browser.page.codes.200": 12,
+        "vusers.failed": 0,
+        "vusers.completed": 1
+      },
+      "rates": {},
+      "firstCounterAt": 1791790513241,
+      "firstHistogramAt": 1791790515238,
+      "lastCounterAt": 1791790515252,
+      "lastHistogramAt": 1791790515252,
+      "firstMetricAt": 1791790513241,
+      "lastMetricAt": 1791790515252,
+      "period": "1791790510000",
+      "summaries": {
+        "browser.page.INP.https://rahulshettyacademy.com/client/#/dashboard/myorders": {
+          "min": 56,
+          "max": 56,
+          "count": 1,
+          "mean": 56,
+          "p50": 56.3,
+          "median": 56.3,
+          "p75": 56.3,
+          "p90": 56.3,
+          "p95": 56.3,
+          "p99": 56.3,
+          "p999": 56.3
+        },
+        "browser.page.CLS.https://rahulshettyacademy.com/client/#/dashboard/myorders": {
+          "min": 0,
+          "max": 0,
+          "count": 1,
+          "mean": 0,
+          "p50": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 0,
+          "p95": 0,
+          "p99": 0,
+          "p999": 0
+        },
+        "vusers.session_length": {
+          "min": 21662.4,
+          "max": 21662.4,
+          "count": 1,
+          "mean": 21662.4,
+          "p50": 21813.5,
+          "median": 21813.5,
+          "p75": 21813.5,
+          "p90": 21813.5,
+          "p95": 21813.5,
+          "p99": 21813.5,
+          "p999": 21813.5
+        }
+      },
+      "histograms": {
+        "browser.page.INP.https://rahulshettyacademy.com/client/#/dashboard/myorders": {
+          "min": 56,
+          "max": 56,
+          "count": 1,
+          "mean": 56,
+          "p50": 56.3,
+          "median": 56.3,
+          "p75": 56.3,
+          "p90": 56.3,
+          "p95": 56.3,
+          "p99": 56.3,
+          "p999": 56.3
+        },
+        "browser.page.CLS.https://rahulshettyacademy.com/client/#/dashboard/myorders": {
+          "min": 0,
+          "max": 0,
+          "count": 1,
+          "mean": 0,
+          "p50": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 0,
+          "p95": 0,
+          "p99": 0,
+          "p999": 0
+        },
+        "vusers.session_length": {
+          "min": 21662.4,
+          "max": 21662.4,
+          "count": 1,
+          "mean": 21662.4,
+          "p50": 21813.5,
+          "median": 21813.5,
+          "p75": 21813.5,
+          "p90": 21813.5,
+          "p95": 21813.5,
+          "p99": 21813.5,
+          "p999": 21813.5
+        }
+      }
+    }
+  ]
+}

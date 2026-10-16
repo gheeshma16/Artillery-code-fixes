@@ -1,0 +1,31 @@
+config:
+  target: "https://rahulshettyacademy.com"
+
+  processor: "./artillery/Pages/testFlow.ts"
+
+  phases:
+    - name: Normal Traffic
+      duration: 10
+      arrivalRate: 1
+
+    - name:  SPIKE
+      duration: 10
+      arrivalRate: 10
+
+    - name:  Recovery
+      duration: 10
+      arrivalRate: 1
+
+  engines:
+    playwright:
+      launchOptions: {}
+
+  plugins:
+    ensure:
+      thresholds:
+        - "vusers.failed": 0
+        - "http.response_time.p95": 2000
+
+scenarios:
+  - engine: playwright
+    flowFunction: "testFlow"
